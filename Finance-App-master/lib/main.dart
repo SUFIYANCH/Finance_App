@@ -1,8 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:managment/Screens/splash.dart';
-
-import 'package:managment/widgets/bottomnavigationbar.dart';
 import 'package:hive_flutter/hive_flutter.dart';
+import 'package:managment/Screens/splash.dart';
 
 import 'data/model/add_date.dart';
 

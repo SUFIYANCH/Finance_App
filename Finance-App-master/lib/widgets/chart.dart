@@ -4,7 +4,7 @@ import 'package:managment/data/utlity.dart';
 import 'package:syncfusion_flutter_charts/charts.dart';
 
 class Chart extends StatefulWidget {
-  int indexx;
+  final int indexx;
   Chart({Key? key, required this.indexx}) : super(key: key);
 
   @override

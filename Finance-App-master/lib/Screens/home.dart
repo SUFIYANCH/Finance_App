@@ -1,7 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:hive/hive.dart';
 import 'package:hive_flutter/adapters.dart';
-import 'package:managment/data/listdata.dart';
 import 'package:managment/data/model/add_date.dart';
 import 'package:managment/data/utlity.dart';
 
@@ -167,19 +165,6 @@ class _HomeState extends State<Home> {
                         ),
                       ),
                     ),
-                    // ClipRRect(
-                    //   borderRadius: BorderRadius.circular(7),
-                    //   child: Container(
-                    //     height: 40,
-                    //     width: 40,
-                    //     color: Color.fromRGBO(250, 250, 250, 0.1),
-                    //     child: Icon(
-                    //       Icons.notification_add_outlined,
-                    //       size: 30,
-                    //       color: Colors.white,
-                    //     ),
-                    //   ),
-                    // ),
                   ],
                 ),
               ),
